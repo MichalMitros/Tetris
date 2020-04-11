@@ -293,7 +293,6 @@ function canBeMoved(direction) {
 function createTetroid() {
   let type = Math.floor(Math.random() * 7);
   let result = [];
-  type = 5;
 
   switch(type) {
     case 0:
